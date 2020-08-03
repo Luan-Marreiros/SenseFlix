@@ -1,0 +1,70 @@
+.pipoca{
+    background: url('./Imagens/pipoca.png')no-repeat;
+    position: relative;
+    top: 50px;
+    width: auto;
+    height: 423px;
+    margin-left: 10px;
+}
+
+.title{
+    color: rgb(199, 175, 175);
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.h1Title{
+    font-size: 60px;
+    font-weight: 300 !important;
+}
+
+.Jumbotron{
+    margin-left: 19px;
+    width: 675px;
+    height: 296px;
+    padding: 2rem 2rem !important;
+    box-shadow: 0px 0px 45px 4px rgba(33,35,77,1);
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+.Input:focus{
+    box-shadow: none !important;
+}
+
+.buttonProcurar{
+    position: relative;
+    left: -47px;
+    margin-right: 20px !important;
+    background-color: rgb(79, 90, 110) !important;;
+
+}
+
+.primaryButton{
+    font-size: 22px !important;
+    border-radius: 10px;
+}
+
+@media(max-width: 600px){
+    .pipoca{
+        display: none;
+    }
+    .title{
+        font-size: 56px;
+        width: 604px;
+        margin-bottom: 40px !important;
+    }
+    .Jumbotron, .buttonProcurar, .Input{
+        font-size: 30px !important;
+    }
+    .Jumbotron{
+    height: 436px;
+    }
+    .primaryButton{
+        font-size: 50px !important;
+    }
+}

@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #282c34;
+}
+
+.navbar-brand{
+    color: rgb(179, 167, 167)!important;
+    padding: 10px !important;
+    font-weight: 600;
+    font-size: 30px !important;
+}
+
+@media(max-width: 600px){
+    .navbar-brand{
+        font-size: 38px !important;
+    }
+}

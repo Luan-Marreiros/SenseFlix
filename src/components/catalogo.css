@@ -1,0 +1,93 @@
+.bgfime{
+    position: relative;
+    top: 150px;
+    margin-bottom: 20px;    
+}
+
+.posterCat{
+    position: relative;
+    left: 20px;
+    max-height: 277px;
+    max-width: 185px;
+    margin-bottom: 20px;
+}
+
+img{
+    cursor: pointer;
+}
+
+.poster-text{
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 194px;
+    height: 277px;
+    left: 31px;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgb(224, 224, 224) ;
+    animation-fill-mode: forwards;
+}
+
+.poster-text h3{
+    text-align: center;
+    color: brown;
+}
+
+.poster-text p {
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+    text-align: center;
+}
+
+.poster-text small {
+    position: relative;
+    text-align: left;
+    top: 22px;
+    font-size: 15px;
+    color: brown;
+    font-weight: bold;
+}
+
+.poster-text:hover{
+    animation: rotation 1s;
+    animation-fill-mode: forwards;
+}
+
+#notaFilme{
+    float: left;
+    max-height: 1px;
+}
+
+#tempoFilme{
+    float: right;
+    max-width: 1px;
+    position: relative;
+    left: -49px;
+}
+
+@keyframes rotation{
+    0%{opacity: 0;}
+    100%{opacity: 100%;}
+}
+
+@media(max-width: 600px){
+    .poster-text{
+        text-align: center;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        width: 194px;
+        height: 277px;
+        left: 86px;
+        bottom: 0;
+        padding: 5px;
+        background-color: rgb(224, 224, 224) ;
+        animation-fill-mode: forwards;
+    }    
+    .posterCat {
+        left: 78px;
+        max-height: 450px !important;
+    }
+}
